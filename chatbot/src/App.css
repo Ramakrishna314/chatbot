@@ -1,0 +1,217 @@
+/* Add this to App.css */
+/* App.js  */
+
+.messenger-icon {
+  position: fixed;
+  bottom:0;
+  right: 0;
+  margin: 16px;
+  width: 80px;
+  height: 80px;
+}
+.chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+
+.chatbox {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+
+
+.welcome-box {
+  
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 100%;
+  margin: 8px;
+  max-height: 300px;
+}
+
+.options-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.chat-messages {
+  max-height: 100%;
+  overflow: auto;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.user {
+  background-color: #FFA500;
+  color: #000;
+}
+
+.user-message {
+  display: flex;
+  align-items: center;
+  background-color: #FFA500;
+  padding:4px;
+  border-radius: 4px;
+}
+
+.tick-mark {
+  margin-left: 5px;
+  color:white;
+  font-size: 1em;
+}
+
+
+
+.App {
+  
+  position: relative;
+  bottom: 0;
+}
+
+.close-button {
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.fullscreen-button {
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+
+}
+.button-container {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px #FFA500;
+  background-color: transparent;
+  
+  color: #FFA500;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+button:hover {
+  background-color: #FFA500; /* Change color on hover */
+  color: white;
+} 
+
+/*           */
+.button-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+ .chat-button {
+  padding: 8px;
+  border: 1px solid #FFA500;
+  background-color: transparent;
+  color: #FFA500;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease,color 0.3s  ease;
+  margin-right: 5px;
+  margin-bottom: 5px;
+ }
+ .back-to-menu-button {
+  padding: 8px;
+  border: 1px solid #FFA500;
+  background-color: transparent;
+  color: #FFA500;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease,color 0.3s  ease;
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+ }
+
+ .chat-button:hover {
+  background-color: #FFA500;
+  
+  color: white;
+ } 
+ .back-to-menu-button:hover {
+  background-color: #FFA500;
+  
+  color: white;
+ }
+ 
+ .send-button {
+  height: 1.5em;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: 4px;
+ 
+  color:white;
+  border: none;
+  border-radius: 50%;
+  padding:8px;
+  display: flex;
+  position: center;
+ }
+
+ .send-button:hover {
+  background-color: #FFA500;
+ }
+
+ .send-button i {
+  color: white;
+ }
+
+ .avatar-container img{
+  width: 30px;
+  height:30px;
+  border-radius:50%;
+  margin-right: 8px;
+ }
+
+ .user-avatar {
+  float: right;
+ }
+ .bot-avatar {
+  float: left;
+ }
+ .bot-message {
+  display: flex;
+  align-items: center;
+}
+.options-container{
+  margin-left: 40px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+
+  
+}

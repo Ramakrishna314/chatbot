@@ -1,0 +1,108 @@
+{
+  
+    "hello": "Hii! I am here to assist you? Do you want to?",
+    "login": {
+      "question": "Are you a?",
+      "options": [
+        {
+          "role": "Student",
+          "text": "Student"
+        },
+        {
+          "role": "Teacher",
+          "text": "Teacher"
+        }
+      ]
+    },
+    "student_login": {
+      "text": "Here is the Login Link for Students:",
+      "linkText": "StudentLogin",
+      "link": "https://ymv51yk1e8.execute-api.ap-south-1.amazonaws.com/login"
+    },
+    "teacher_login": {
+      "text": "Here is the Login Link for Teachers:",
+      "linkText": "TeacherLogin",
+      "link": "https://ymv51yk1e8.execute-api.ap-south-1.amazonaws.com/teacher"
+    },
+    "register": {
+      "teacher_link": {
+        "text": "Here is the Registration link for Teachers:",
+        "linkText": "TeacherRegister",
+        "link": "https://ymv51yk1e8.execute-api.ap-south-1.amazonaws.com/registration"
+      }
+    },
+    "faqs": {
+      "faq_link": {
+        "text": " Here is the faqs link",
+        "linkText": "faq link",
+        "link": "https://atlstage.unisolve.org/faq.html"
+      }
+      
+    },
+    "aboutus": {
+      "about_link": {
+        "text": "Click Below Link to know About us:",
+        "linkText": "Click Here!",
+        "link": "https://youtu.be/HufI5CnhkfU"
+      }
+    },
+    
+  
+    "text_responses": {
+      "participation_question": {
+        "question": "Who is eligible to participate?",
+        "answer": "Students from both ATL and Non-ATL schools are eligible to participate. Non-ATL schools can collaborate with ATL schools to form teams."
+      },
+      "rewards_question": {
+        "question": "What rewards do top teams receive?",
+        "answer": "The top teams will receive internships through the Student Innovator Program with leading corporates of India, certificates from AIM, NITI Aayog, and many more interesting opportunities at the conclusion of the Marathon."
+      },
+      "deadline_question": {
+        "question": "What is the deadline for submitting entries?",
+        "answer": "The last date to submit entries is 26th January 2024, 11:59 PM."
+      },
+      "submit_application_question": {
+        "question": "How can I submit my application?",
+        "answer": "You can submit your application in your student profile."
+      },
+      "certificate_question": {
+        "question": "Do participating students receive certificates?",
+        "answer": "Yes, all participating students will receive a certificate of Participation from AIM, NITI Aayog."
+      },
+      "multiple_entries_question": {
+        "question": "Can a team submit entries for more than one problem statement?",
+        "answer": "Yes, a team may submit entries for more than one problem statement. However, a separate application form must be filled out for each problem statement."
+      },
+      "team_limit_question": {
+        "question": "Is there a limit on the number of teams from a school?",
+        "answer": "No, there is no limit. A maximum number of teams from every school is encouraged."
+      },
+      "documents_question": {
+        "question": "What documents are required for online application submission?",
+        "answer": "The online application form submission will include a Research Document (description of the innovation/solution) and a Video submission (capturing a 360-degree view of the working prototype/solution)."
+      },
+      "support_question": {
+        "question": "Who can support student teams?",
+        "answer": "ATL In-Charge, School Teachers, Mentors of Change, Alumni, and external mentors from the local ATL ecosystem may support the student teams."
+      },
+      "team_composition_question": {
+        "question": "What is the ideal composition of a team?",
+        "answer": "Each team should consist of a maximum of 3 students (class 6th to 12th). ATL schools are encouraged to include other school and/or community students in the team composition."
+      },
+      "individual_entry_question": {
+        "question": "Can I enter as an individual member?",
+        "answer": "No, individual member entry is not allowed. Teams must consist of a minimum of 2 members."
+      },
+      "special_certificates_question": {
+        "question": "Are there special certificates for schools with a high number of participating teams?",
+        "answer": "Yes, special certificates from AIM, NITI Aayog will be given to all schools that have more than 25 teams participating in ATL Marathon."
+      }
+    },
+    "contactUs": {
+      "text": "For any queries, you can contact us at:",
+      "email": "contact@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+    
+  
+  }
