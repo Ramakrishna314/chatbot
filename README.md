@@ -21,11 +21,11 @@ A chatbot project created using React.js for building an interactive messaging i
 
     ```bash
     # Install React and its dependencies
-   npm install react react-dom
+      npm install react react-dom
 
    # Install FontAwesome icons
-  npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
-  npm install --save @fortawesome/fontawesome-svg-core
+      npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+      npm install --save @fortawesome/fontawesome-svg-core
 
     ```
 
